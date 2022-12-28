@@ -110,7 +110,7 @@ int main(void)
   {
 	  //from pid
 	 PID1(con, var);
-	 mot.m1 = var.output;
+	 mot.m1 = (int)var.output;
 
 	 //PWM write -> mot.m1
     /* USER CODE END WHILE */
